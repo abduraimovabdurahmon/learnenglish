@@ -1,0 +1,301 @@
+
+<!-- main -->
+<!-- hero -->
+<section>
+    <div class="container">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active position-relative">
+                    <img src="https://www.eplaneteducation.com/wp-content/uploads/2018/08/Blog-August.jpg"
+                        class="d-block w-100" alt="...">
+                    <div class="position-absolute z-3 m-5 p-2 h1 text-white"
+                        style="backdrop-filter: blur(90px); top: 10%;" id="home-text"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- second text -->
+<section class="bg-light py-5 mt-1">
+    <div class="container">
+        <h1 class="display-4 text-center">Why Learn English?</h1>
+        <p class="lead text-center">English is not just a language; it's a key to endless opportunities.</p>
+    </div>
+</section>
+
+<section id="benefits" class="py-5">
+    <div class="container">
+        <h2 class="display-4 text-center">Benefits of Learning English</h2>
+        <div class="row mt-6">
+            <div class="col-md-6">
+                <h3>Global Communication</h3>
+                <p>English is the global lingua franca, spoken by millions worldwide. Learning English opens doors to
+                    effective communication with people from diverse cultures.</p>
+            </div>
+            <div class="col-md-6">
+                <h3>Career Opportunities</h3>
+                <p>English proficiency is a valuable skill in the job market. Many international companies and
+                    industries require employees who can communicate fluently in English.</p>
+            </div>
+            <!-- Add more benefits here -->
+        </div>
+    </div>
+</section>
+
+<!-- img sectio -->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="https://www.steponsafety.co.uk/wp-content/uploads/2021/02/overseas-agent-scaled.jpg"
+                    class="w-100" alt="">
+            </div>
+            <div class="col-md-6">
+                <img src="https://digitalhealthbuzz.com/wp-content/uploads/2022/10/Depositphotos_11630047_L.jpg"
+                    class="w-100" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="why-choose-us" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="display-4 text-center">Why choose us?</h2>
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <h3>Interactive Learning</h3>
+                <p>We offer interactive courses designed to make learning English fun and effective. Our engaging
+                    content will help you grow with confidence.</p>
+            </div>
+            <div class="col-md-6">
+                <h3>Expert Instructors</h3>
+                <p>Learn from experienced language instructors who are dedicated to helping you achieve language
+                    proficiency. Our team is passionate about your success.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- reklama -->
+<section>
+    <div class="container">
+        <div class="text-center display-3 py-3">Share with your friends now!</div>
+    </div>
+
+    <div class="container-browser">
+        <div class="row-browser">
+            <div class="column-browser left">
+                <span class="dot" style="background:#ED594A;"></span>
+                <span class="dot" style="background:#FDD800;"></span>
+                <span class="dot" style="background:#5AC05A;"></span>
+            </div>
+            <div class="column middle">
+                <input type="text" value="" id="browser-input">
+            </div>
+        </div>
+
+        <div class="content" id="content">
+        </div>
+    </div>
+</section>
+
+<!-- Bog'lanish -->
+<section>
+    <div class="container mt-5" style="background-color: #f2f2f2; border-radius: 12px; padding: 20px;">
+
+        <h2 class="display-4 text-center">Contact Us</h2>
+
+        <form action="action_page.php">
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="uzbekistan">Uzbekistan</option>
+                <option value="russia">Russia</option>
+                <option value="usa">USA</option>
+            </select>
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+
+        </form>
+    </div>
+</section>
+
+<!-- end main -->
+
+
+<style>
+    body {
+        font-family: Arial
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    /* The browser window */
+    .container-browser {
+        width: 80%;
+        margin: auto;
+        border: 3px solid #f1f1f1;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+    }
+
+    /* Container for columns and the top "toolbar" */
+    .row-browser {
+        padding: 10px;
+        background: #f1f1f1;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+    }
+
+    /* Create three unequal columns that floats next to each other */
+    .column-browser {
+        float: left;
+    }
+
+    .left {
+        width: 15%;
+    }
+
+    .right {
+        width: 10%;
+    }
+
+    .middle {
+        width: 75%;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /* Three dots */
+    .dot {
+        margin-top: 4px;
+        height: 12px;
+        width: 12px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+    }
+
+    /* Style the input field */
+    input[type=text] {
+        width: 100%;
+        border-radius: 3px;
+        border: none;
+        background-color: white;
+        margin-top: -8px;
+        height: 25px;
+        color: #666;
+        padding: 5px;
+    }
+
+
+    /* Page content */
+    .content {
+        padding: 10px;
+    }
+
+
+
+    /* Style inputs with type="text", select elements and textareas */
+    input[type=text],
+    select,
+    textarea {
+        width: 100%;
+        /* Full width */
+        padding: 12px;
+        /* Some padding */
+        border: 1px solid #ccc;
+        /* Gray border */
+        border-radius: 4px;
+        /* Rounded borders */
+        box-sizing: border-box;
+        /* Make sure that padding and width stays in place */
+        margin-top: 6px;
+        /* Add a top margin */
+        margin-bottom: 16px;
+        /* Bottom margin */
+        resize: vertical
+            /* Allow the user to vertically resize the textarea (not horizontally) */
+    }
+
+    /* Style the submit button with a specific background color etc */
+    input[type=submit] {
+        background-color: #04AA6D;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    /* When moving the mouse over the submit button, add a darker green color */
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+</style>
+
+
+
+
+    <script>
+        var i = 0;
+        var txts = ["Open up a world of opportunities by learning English with us.",
+    "Immerse yourself in interactive courses designed for effective learning.",
+    "Connect with our global community of language enthusiasts.",
+    "Feel the joy of language learning with our experienced teachers.",
+    "Enhance your career prospects by learning English from us.",
+    "Discover the beauty of the English language through fun and dynamic lessons.",
+    "Join thousands of students who have changed their lives with us."]
+        var speed = 50;
+        let current = 0;
+
+        async function typeWriter() {
+            if (i < txts[current].length) {
+                document.getElementById("home-text").innerHTML += txts[current].charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+            }
+            else{
+                if(current == txts.length - 1){
+                    current = 0;
+                    i=0;
+                    await new Promise(resolve => setTimeout(resolve, 2000));
+                    document.getElementById("home-text").innerHTML = "";
+                    typeWriter();
+                }
+                else{
+                    current++;
+                    i=0;
+                    await new Promise(resolve => setTimeout(resolve, 2000));
+                    document.getElementById("home-text").innerHTML = "";
+                    typeWriter();
+                }
+            }
+        }
+        typeWriter();
+
+        document.getElementById("content").innerHTML = `<iframe src="${document.URL}" style="width: 100%; height: 500px;"></iframe>`;
+        document.getElementById("browser-input").value = document.URL;
+    </script>
+
+
+
+
